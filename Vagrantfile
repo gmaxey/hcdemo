@@ -65,6 +65,9 @@ do
 done
 nomad -autocomplete-install
 
+sudo apt-get install socat -y
+#git clone https://github.com/gmaxey/hcdemo.git
+
 SCRIPT
 
 Vagrant.configure(2) do |config|
