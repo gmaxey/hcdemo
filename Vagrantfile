@@ -67,6 +67,10 @@ nomad -autocomplete-install
 
 sudo apt-get install socat -y
 #git clone https://github.com/gmaxey/hcdemo.git
+mkdir -p ~/.vim/pack/hc/start
+cd ~/.vim/pack/hc/start
+git clone https://github.com/jvirtanen/vim-hcl.git
+git clone https://github.com/hashivim/vim-nomadproject.git
 
 SCRIPT
 
